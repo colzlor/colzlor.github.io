@@ -3,64 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://colzlor.github.io:443/en/docs/example/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/with-toc/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/table-of-contents/with-toc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/table-of-contents/with-toc/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/without-toc/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/table-of-contents/without-toc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/table-of-contents/without-toc/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/table-of-contents/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/table-of-contents/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/collapsed/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/collapsed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/collapsed/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -151,195 +101,35 @@
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/4th-level/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/collapsed/3rd-level/4th-level/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/4th-level/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/collapsed/3rd-level/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/example/hidden/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/example/hidden/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/example/hidden/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/buttons/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/buttons/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/buttons/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/columns/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/columns/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/columns/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/details/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/details/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/expand/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/expand/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/expand/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/hints/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/hints/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/hints/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/mermaid/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/mermaid/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/mermaid/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/section/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/section/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/first-page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/section/first-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/section/first-page/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/second-page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/section/second-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/section/second-page/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/tabs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/tabs/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/"
-                />
   </url><url>
     <loc>https://colzlor.github.io:443/en/docs/shortcodes/katex/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://colzlor.github.io:443/zh/docs/shortcodes/katex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colzlor.github.io:443/en/docs/shortcodes/katex/"
-                />
   </url>
 </urlset>
