@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杂谈 on 灶马的博客</title>
-    <link>http://localhost:1313/zh/categories/%E6%9D%82%E8%B0%88/</link>
+    <link>https://colzlor.github.io:80/zh/categories/%E6%9D%82%E8%B0%88/</link>
     <description>Recent content in 杂谈 on 灶马的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 26 May 2024 04:34:05 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://colzlor.github.io:80/zh/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>这是我第一篇文章</title>
-      <link>http://localhost:1313/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <link>https://colzlor.github.io:80/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
       <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
-      <guid>http://localhost:1313/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <guid>https://colzlor.github.io:80/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
       <description>年近三十，记录一些东西，希望自己能持之以恒，每周写一篇。&#xA;一点小小的生活感悟 # 今天</description>
     </item>
   </channel>
