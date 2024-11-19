@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://colzlor.github.io:443/zh/categories/</loc>
+    <loc>/zh/categories/</loc>
     <lastmod>2024-05-26T04:34:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/categories/"
+                href="/zh/categories/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/zh/</loc>
+    <loc>/zh/tags/</loc>
     <lastmod>2024-05-26T04:34:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/"
+                href="/zh/tags/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/zh/tags/</loc>
+    <loc>/zh/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+  </url><url>
+    <loc>/zh/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+  </url><url>
+    <loc>/zh/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+  </url><url>
+    <loc>/zh/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+  </url><url>
+    <loc>/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+  </url><url>
+    <loc>/zh/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/tags/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/tags/"
+                href="/zh/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/zh/posts/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
+    <loc>/zh/posts/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/posts/"
+                href="/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/posts/"
+                href="/zh/posts/"
                 />
-  </url><url>
-    <loc>https://colzlor.github.io:443/zh/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/zh/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/zh/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/zh/categories/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2024-05-26T04:34:05-04:00</lastmod>
   </url>
 </urlset>

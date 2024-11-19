@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zaoma`s Blog</title>
-    <link>https://colzlor.github.io:443/en/tags/</link>
+    <link>/en/tags/</link>
     <description>Recent content in Tags on Zaoma`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://colzlor.github.io:443/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:56:24 -0400</lastBuildDate>
+    <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>https://colzlor.github.io:443/en/tags/development/</link>
+      <link>/en/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/development/</guid>
+      <guid>/en/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>https://colzlor.github.io:443/en/tags/go/</link>
+      <link>/en/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/go/</guid>
+      <guid>/en/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://colzlor.github.io:443/en/tags/golang/</link>
+      <link>/en/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/golang/</guid>
+      <guid>/en/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://colzlor.github.io:443/en/tags/hugo/</link>
+      <link>/en/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/hugo/</guid>
+      <guid>/en/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Templates</title>
-      <link>https://colzlor.github.io:443/en/tags/templates/</link>
+      <link>/en/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/templates/</guid>
+      <guid>/en/tags/templates/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>https://colzlor.github.io:443/en/tags/themes/</link>
+      <link>/en/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/tags/themes/</guid>
+      <guid>/en/tags/themes/</guid>
       <description></description>
     </item>
   </channel>

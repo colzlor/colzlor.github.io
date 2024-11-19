@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Zaoma`s Blog</title>
-    <link>https://colzlor.github.io:443/en/categories/</link>
+    <link>/en/categories/</link>
     <description>Recent content in Categories on Zaoma`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://colzlor.github.io:443/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:56:24 -0400</lastBuildDate>
+    <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>https://colzlor.github.io:443/en/categories/Development/</link>
+      <link>/en/categories/Development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/categories/Development/</guid>
+      <guid>/en/categories/Development/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://colzlor.github.io:443/en/categories/golang/</link>
+      <link>/en/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://colzlor.github.io:443/en/categories/golang/</guid>
+      <guid>/en/categories/golang/</guid>
       <description></description>
     </item>
   </channel>

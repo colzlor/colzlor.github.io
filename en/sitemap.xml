@@ -2,134 +2,155 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://colzlor.github.io:443/en/docs/example/</loc>
+    <loc>/en/docs/example/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/with-toc/</loc>
+    <loc>/en/docs/example/table-of-contents/with-toc/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/without-toc/</loc>
+    <loc>/en/docs/example/table-of-contents/without-toc/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/table-of-contents/</loc>
+    <loc>/en/docs/example/table-of-contents/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/collapsed/</loc>
+    <loc>/en/docs/example/collapsed/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/en/posts/creating-a-new-theme/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/posts/goisforlovers/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/categories/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/posts/"
+                href="/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/posts/"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/en/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/en/tags/development/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/en/categories/Development/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/posts/hugoisforlovers/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/tags/go/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/tags/golang/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/categories/golang/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/tags/hugo/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/"
+                href="/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/"
+                href="/en/tags/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/en/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/en/tags/templates/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/en/tags/themes/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/posts/migrate-from-jekyll/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/example/collapsed/3rd-level/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/example/hidden/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/buttons/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/columns/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/details/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/expand/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/hints/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/mermaid/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/section/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/section/first-page/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/section/second-page/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/docs/shortcodes/tabs/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
+  </url><url>
+    <loc>/en/posts/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/categories/"
+                href="/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/categories/"
+                href="/en/posts/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/en/docs/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>https://colzlor.github.io:443/en/categories/Development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/en/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://colzlor.github.io:443/zh/tags/"
+                href="/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colzlor.github.io:443/en/tags/"
+                href="/en/"
                 />
   </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/4th-level/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/collapsed/3rd-level/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/example/hidden/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/buttons/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/columns/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/details/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/expand/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/hints/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/mermaid/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/first-page/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/section/second-page/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/tabs/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/</loc>
-  </url><url>
-    <loc>https://colzlor.github.io:443/en/docs/shortcodes/katex/</loc>
+    <loc>/en/docs/shortcodes/katex/</loc>
+    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url>
 </urlset>
