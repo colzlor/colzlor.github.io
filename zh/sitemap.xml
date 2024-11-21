@@ -43,19 +43,6 @@
     <loc>/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2024-05-26T04:34:05-04:00</lastmod>
   </url><url>
-    <loc>/zh/</loc>
-    <lastmod>2024-11-20T08:39:28-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-  </url><url>
     <loc>/zh/posts/</loc>
     <lastmod>2024-11-20T08:36:39-05:00</lastmod>
     <xhtml:link
@@ -67,6 +54,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/posts/"
+                />
+  </url><url>
+    <loc>/zh/</loc>
+    <lastmod>2024-11-21T07:39:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
                 />
   </url>
 </urlset>
