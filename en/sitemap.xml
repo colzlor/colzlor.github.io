@@ -2,21 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/docs/example/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/table-of-contents/with-toc/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/table-of-contents/without-toc/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/table-of-contents/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/collapsed/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
     <loc>/en/posts/creating-a-new-theme/</loc>
     <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
@@ -79,48 +64,6 @@
     <loc>/en/posts/migrate-from-jekyll/</loc>
     <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url><url>
-    <loc>/en/docs/example/collapsed/3rd-level/4th-level/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/collapsed/3rd-level/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/example/hidden/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/buttons/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/columns/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/details/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/expand/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/hints/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/mermaid/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/section/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/section/first-page/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/section/second-page/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
-    <loc>/en/docs/shortcodes/tabs/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-  </url><url>
     <loc>/en/posts/</loc>
     <lastmod>2024-11-20T08:36:39-05:00</lastmod>
     <xhtml:link
@@ -132,19 +75,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/posts/"
-                />
-  </url><url>
-    <loc>/en/docs/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/"
                 />
   </url><url>
     <loc>/en/</loc>
@@ -159,8 +89,5 @@
                 hreflang="en"
                 href="/en/"
                 />
-  </url><url>
-    <loc>/en/docs/shortcodes/katex/</loc>
-    <lastmod>2024-05-28T00:56:24-04:00</lastmod>
   </url>
 </urlset>
