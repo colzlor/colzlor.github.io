@@ -13,7 +13,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/categories/"
+                href="/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -47,7 +47,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/tags/"
+                href="/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -69,7 +69,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/posts/"
+                href="/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,7 +82,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/"
+                href="/zh/"
                 />
     <xhtml:link
                 rel="alternate"
