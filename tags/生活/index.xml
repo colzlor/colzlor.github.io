@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on 灶马的博客</title>
+    <link>/tags/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on 灶马的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 26 May 2024 04:34:05 -0400</lastBuildDate>
+    <atom:link href="/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>这是我第一篇文章</title>
+      <link>/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
+      <guid>/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>年近三十，记录一些东西，希望自己能持之以恒，每周写一篇。&#xA;一点小小的生活感悟 # 测试测试测试测试1</description>
+    </item>
+  </channel>
+</rss>

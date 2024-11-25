@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 灶马的博客</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on 灶马的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 22 Nov 2024 21:55:38 -0400</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小说</title>
+      <link>/categories/%E5%B0%8F%E8%AF%B4/</link>
+      <pubDate>Fri, 22 Nov 2024 21:55:38 -0400</pubDate>
+      <guid>/categories/%E5%B0%8F%E8%AF%B4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活</title>
+      <link>/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
+      <guid>/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>杂谈</title>
+      <link>/categories/%E6%9D%82%E8%B0%88/</link>
+      <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
+      <guid>/categories/%E6%9D%82%E8%B0%88/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
