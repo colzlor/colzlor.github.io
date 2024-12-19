@@ -11,14 +11,14 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/zh/posts/kernel-submitting-patches/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-05-26T04:34:05-04:00" />
-<meta property="article:modified_time" content="2024-12-19T00:52:53-05:00" />
+<meta property="article:modified_time" content="2024-12-19T01:23:51-05:00" />
 <title>向kernel提交patch | 灶马的博客</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
 <link rel="canonical" href="/zh/posts/kernel-submitting-patches/">
 <link rel="stylesheet" href="/book.min.4964903a822a7acb10dac6d1ab524833c97fb5f99b141976bcb8a47d539be9c0.css" >
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/zh.search.min.385df478ead1e7c859e887c51c3b688ea3d19a0d4ddc454ec6071a6820b4978b.js" ></script>
+  <script defer src="/zh.search.min.ff6882ad68254efac92aceabe361d14f743d5e12e977bc9679513d7c9cd1a215.js" ></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
 
@@ -256,7 +256,7 @@ https://github.com/alex-shpak/hugo-book
         </li>
         <li><a href="#维护">维护</a></li>
         <li><a href="#制作补丁">制作补丁</a></li>
-        <li><a href="#发送补丁">发送补丁</a></li>
+        <li><a href="#发送邮件等待回复">发送邮件，等待回复</a></li>
       </ul>
     </li>
   </ul>
@@ -392,15 +392,15 @@ git remote update
 <pre><code>./scripts/checkpatch.pl 0001-*
 </code></pre>
 <p>达到 0 errors, 0 warnings， 就可以准备将它发送给Maintainer了</p>
-<h2 id="发送补丁">
-  发送补丁
-  <a class="anchor" href="#%e5%8f%91%e9%80%81%e8%a1%a5%e4%b8%81">#</a>
+<h2 id="发送邮件等待回复">
+  发送邮件，等待回复
+  <a class="anchor" href="#%e5%8f%91%e9%80%81%e9%82%ae%e4%bb%b6%e7%ad%89%e5%be%85%e5%9b%9e%e5%a4%8d">#</a>
 </h2>
 <p>用get_maintainer.pl来查看对应模块的Maintainer：</p>
 <pre><code>./scripts/get_maintainer.pl 0001-*
 </code></pre>
-<p>然后选几个Maintainer邮箱发送即可</p>
-<pre><code>git send-email 0001-* --to **@**.** --cc **@**.** 
+<p>然后向Maintainer邮箱发送即可</p>
+<pre><code>git send-email 0001-* --to 收件人邮箱 --cc 抄送人邮箱
 </code></pre>
 </article>
  
@@ -479,7 +479,7 @@ git remote update
         </li>
         <li><a href="#维护">维护</a></li>
         <li><a href="#制作补丁">制作补丁</a></li>
-        <li><a href="#发送补丁">发送补丁</a></li>
+        <li><a href="#发送邮件等待回复">发送邮件，等待回复</a></li>
       </ul>
     </li>
   </ul>
