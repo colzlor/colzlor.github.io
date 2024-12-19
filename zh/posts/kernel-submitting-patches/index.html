@@ -3,24 +3,22 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="年近三十，记录一些东西，希望自己能持之以恒，每周写一篇。
-一点小小的生活感悟 # 测试测试测试测试1">
+<meta name="description" content="如何向kernel提交patch">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="这是我第一篇文章" />
-<meta property="og:description" content="年近三十，记录一些东西，希望自己能持之以恒，每周写一篇。
-一点小小的生活感悟 # 测试测试测试测试1" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="向kernel提交patch" />
+<meta property="og:description" content="如何向kernel提交patch" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="/zh/posts/kernel-submitting-patches/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-05-26T04:34:05-04:00" />
-<meta property="article:modified_time" content="2024-05-26T04:34:05-04:00" />
-<title>这是我第一篇文章 | 灶马的博客</title>
+<meta property="article:modified_time" content="2024-12-19T00:52:53-05:00" />
+<title>向kernel提交patch | 灶马的博客</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="canonical" href="/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+<link rel="canonical" href="/zh/posts/kernel-submitting-patches/">
 <link rel="stylesheet" href="/book.min.4964903a822a7acb10dac6d1ab524833c97fb5f99b141976bcb8a47d539be9c0.css" >
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/zh.search.min.12cedfcfb5cbcb7c3a0808b9d348b52e0805a3e4c9aacb89b7b85fa8ea5ff7a0.js" ></script>
+  <script defer src="/zh.search.min.385df478ead1e7c859e887c51c3b688ea3d19a0d4ddc454ec6071a6820b4978b.js" ></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
 
@@ -39,7 +37,7 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   <meta property="og:site_name" content="灶马的博客">
-<meta content='' name="keywords">
+<meta content='linux, kernel, patch, 内核' name="keywords">
 
 </head>
 <body dir="ltr">
@@ -222,7 +220,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>这是我第一篇文章</strong>
+  <strong>向kernel提交patch</strong>
 
   <label for="toc-control">
     
@@ -240,7 +238,25 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li>
       <ul>
-        <li><a href="#一点小小的生活感悟">一点小小的生活感悟</a></li>
+        <li><a href="#拉取代码">拉取代码</a>
+          <ul>
+            <li><a href="#安装git">安装git</a></li>
+            <li><a href="#配置邮箱">配置邮箱</a></li>
+            <li><a href="#拉主支代码">拉主支代码</a></li>
+            <li><a href="#拉取分支">拉取分支</a></li>
+            <li><a href="#查看tags">查看tags</a></li>
+            <li><a href="#定期更新代码">定期更新代码</a></li>
+          </ul>
+        </li>
+        <li><a href="#编译">编译</a>
+          <ul>
+            <li><a href="#生成配置">生成配置</a></li>
+            <li><a href="#编译-1">编译</a></li>
+          </ul>
+        </li>
+        <li><a href="#维护">维护</a></li>
+        <li><a href="#制作补丁">制作补丁</a></li>
+        <li><a href="#发送补丁">发送补丁</a></li>
       </ul>
     </li>
   </ul>
@@ -257,7 +273,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown book-post">
   <h1>
-    <a href="/zh/posts/%E8%BF%99%E6%98%AF%E6%88%91%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">这是我第一篇文章</a>
+    <a href="/zh/posts/kernel-submitting-patches/">向kernel提交patch</a>
   </h1>
   
   <h5>五月 26, 2024</h5>
@@ -267,27 +283,125 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/zh/categories/%E6%9D%82%E8%B0%88/">杂谈</a>, 
-      <a href="/zh/categories/%E7%94%9F%E6%B4%BB/">生活</a>
+      <a href="/zh/categories/linux/">Linux</a>
   </div>
   
 
   
   <div>
     
-      <a href="/zh/tags/%E6%9D%82%E8%B0%88/">杂谈</a>, 
-      <a href="/zh/tags/%E7%94%9F%E6%B4%BB/">生活</a>
+      <a href="/zh/tags/linux/">Linux</a>
   </div>
   
 
 
 
-<p>年近三十，记录一些东西，希望自己能持之以恒，每周写一篇。</p>
-<h2 id="一点小小的生活感悟">
-  一点小小的生活感悟
-  <a class="anchor" href="#%e4%b8%80%e7%82%b9%e5%b0%8f%e5%b0%8f%e7%9a%84%e7%94%9f%e6%b4%bb%e6%84%9f%e6%82%9f">#</a>
+<h2 id="拉取代码">
+  拉取代码
+  <a class="anchor" href="#%e6%8b%89%e5%8f%96%e4%bb%a3%e7%a0%81">#</a>
 </h2>
-<p>测试测试测试测试1</p>
+<h3 id="安装git">
+  安装git
+  <a class="anchor" href="#%e5%ae%89%e8%a3%85git">#</a>
+</h3>
+<pre><code>apt install git git-email
+git config --global user.name &quot;John Doe&quot;
+git config --global user.email johndoe@example.com
+</code></pre>
+<h3 id="配置邮箱">
+  配置邮箱
+  <a class="anchor" href="#%e9%85%8d%e7%bd%ae%e9%82%ae%e7%ae%b1">#</a>
+</h3>
+<p>vim ~/.gitconfig，去对应邮箱拿smtp授权</p>
+<pre><code>[sendemail]
+smtpEncryption = tls
+smtpServer = smtp.gmail.com
+smtpUser = yourname@gmail.com
+smtpServerPort = 587
+</code></pre>
+<h3 id="拉主支代码">
+  拉主支代码
+  <a class="anchor" href="#%e6%8b%89%e4%b8%bb%e6%94%af%e4%bb%a3%e7%a0%81">#</a>
+</h3>
+<pre><code>git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+</code></pre>
+<h3 id="拉取分支">
+  拉取分支
+  <a class="anchor" href="#%e6%8b%89%e5%8f%96%e5%88%86%e6%94%af">#</a>
+</h3>
+<pre><code>cd linux
+git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+git fetch --tags linux-next
+git checkout -b mydev next-****
+</code></pre>
+<p>任何要合并到linux主支的代码都会首先合并到next中，所以咱们基于next分支来开发</p>
+<h3 id="查看tags">
+  查看tags
+  <a class="anchor" href="#%e6%9f%a5%e7%9c%8btags">#</a>
+</h3>
+<pre><code>git tag -l &quot;next-*&quot; | tail
+</code></pre>
+<h3 id="定期更新代码">
+  定期更新代码
+  <a class="anchor" href="#%e5%ae%9a%e6%9c%9f%e6%9b%b4%e6%96%b0%e4%bb%a3%e7%a0%81">#</a>
+</h3>
+<pre><code>git checkout master 
+git remote update
+</code></pre>
+<h2 id="编译">
+  编译
+  <a class="anchor" href="#%e7%bc%96%e8%af%91">#</a>
+</h2>
+<h3 id="生成配置">
+  生成配置
+  <a class="anchor" href="#%e7%94%9f%e6%88%90%e9%85%8d%e7%bd%ae">#</a>
+</h3>
+<pre><code>make ARCH=x86_64 allyesconfig
+</code></pre>
+<h3 id="编译-1">
+  编译
+  <a class="anchor" href="#%e7%bc%96%e8%af%91-1">#</a>
+</h3>
+<pre><code>make -j4 ARCH=x86_64 EXTRA_CFLAGS=&quot;-Wmissing-declarations -Wmissing-prototypes&quot;
+</code></pre>
+<p>生成其他平台，在后面加上对应的交叉编译工具链</p>
+<pre><code>CROSS_COMPILE=toolchain_path
+</code></pre>
+<h2 id="维护">
+  维护
+  <a class="anchor" href="#%e7%bb%b4%e6%8a%a4">#</a>
+</h2>
+<p>维护大致分成</p>
+<ul>
+<li>coding-style</li>
+<li>warnning</li>
+<li>bug fix</li>
+<li>feature</li>
+</ul>
+<p>首先要熟悉kernel编程规范:
+  <a href="https://www.kernel.org/doc/html/latest/process/coding-style.html">🔗</a></p>
+<p>咱们刚入门就从编码格式和消除警告入手，也可以更好的了解整个工作流程</p>
+<h2 id="制作补丁">
+  制作补丁
+  <a class="anchor" href="#%e5%88%b6%e4%bd%9c%e8%a1%a5%e4%b8%81">#</a>
+</h2>
+<pre><code>git format-patch -s -1
+</code></pre>
+<p>在提交之前，使用checkpatch.pl检查补丁是否违规，格式具体参考：
+  <a href="https://www.kernel.org/doc/html/latest/translations/zh_CN/process/submitting-patches.html">🔗</a></p>
+<pre><code>./scripts/checkpatch.pl 0001-*
+</code></pre>
+<p>达到 0 errors, 0 warnings， 就可以准备将它发送给Maintainer了</p>
+<h2 id="发送补丁">
+  发送补丁
+  <a class="anchor" href="#%e5%8f%91%e9%80%81%e8%a1%a5%e4%b8%81">#</a>
+</h2>
+<p>用get_maintainer.pl来查看对应模块的Maintainer：</p>
+<pre><code>./scripts/get_maintainer.pl 0001-*
+</code></pre>
+<p>然后选几个Maintainer邮箱发送即可</p>
+<pre><code>git send-email 0001-* --to **@**.** --cc **@**.** 
+</code></pre>
 </article>
  
       
@@ -347,7 +461,25 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li>
       <ul>
-        <li><a href="#一点小小的生活感悟">一点小小的生活感悟</a></li>
+        <li><a href="#拉取代码">拉取代码</a>
+          <ul>
+            <li><a href="#安装git">安装git</a></li>
+            <li><a href="#配置邮箱">配置邮箱</a></li>
+            <li><a href="#拉主支代码">拉主支代码</a></li>
+            <li><a href="#拉取分支">拉取分支</a></li>
+            <li><a href="#查看tags">查看tags</a></li>
+            <li><a href="#定期更新代码">定期更新代码</a></li>
+          </ul>
+        </li>
+        <li><a href="#编译">编译</a>
+          <ul>
+            <li><a href="#生成配置">生成配置</a></li>
+            <li><a href="#编译-1">编译</a></li>
+          </ul>
+        </li>
+        <li><a href="#维护">维护</a></li>
+        <li><a href="#制作补丁">制作补丁</a></li>
+        <li><a href="#发送补丁">发送补丁</a></li>
       </ul>
     </li>
   </ul>

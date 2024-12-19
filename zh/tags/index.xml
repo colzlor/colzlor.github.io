@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 灶马的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 22 Nov 2024 21:55:38 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:52:53 -0500</lastBuildDate>
     <atom:link href="/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>打草笼</title>
@@ -16,17 +16,10 @@
       <description></description>
     </item>
     <item>
-      <title>生活</title>
-      <link>/zh/tags/%E7%94%9F%E6%B4%BB/</link>
+      <title>Linux</title>
+      <link>/zh/tags/linux/</link>
       <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
-      <guid>/zh/tags/%E7%94%9F%E6%B4%BB/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>杂谈</title>
-      <link>/zh/tags/%E6%9D%82%E8%B0%88/</link>
-      <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
-      <guid>/zh/tags/%E6%9D%82%E8%B0%88/</guid>
+      <guid>/zh/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
