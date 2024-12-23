@@ -16,7 +16,7 @@
 <link rel="canonical" href="/zh/tags/linux/">
 <link rel="stylesheet" href="/book.min.4964903a822a7acb10dac6d1ab524833c97fb5f99b141976bcb8a47d539be9c0.css" >
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/zh.search.min.c25e3e33222e54656807b9108f1ccaee6bc4ad5c1143424965337fb1bcf8c7f6.js" ></script>
+  <script defer src="/zh.search.min.bcd6146aa114521f13b484df275c3121f7ac57e27797892b06c1f73d8d418d5d.js" ></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
 
@@ -311,9 +311,8 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-    <p>拉取代码 # 安装git # apt install git git-email git config --global user.name &quot;John Doe&quot; git config --global user.email johndoe@example.com 配置邮箱 # vim ~/.gitconfig，去对应邮箱拿smtp授权
-[sendemail] smtpEncryption = tls smtpServer = smtp.gmail.com smtpUser = yourname@gmail.com smtpServerPort = 587 拉主支代码 # git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git 拉取分支 # cd linux git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git git fetch --tags linux-next git checkout -b mydev next-**** 任何要合并到linux主支的代码都会首先合并到next中，所以咱们基于next分支来开发
-查看tags # git tag -l &quot;next-*&quot; | tail 定期更新代码 # git checkout master git remote update 编译 # 生成配置 # make ARCH=x86_64 allyesconfig 编译 # make -j4 ARCH=x86_64 EXTRA_CFLAGS=&quot;-Wmissing-declarations -Wmissing-prototypes&quot; 生成其他平台，在后面加上对应的交叉编译工具链
+    <p><p>过了这么长时间一直没有发布任何文章，也不知道写些什么好，其实博客和小说写了很多内容，但是自己总觉得还没写好，唉！但凡能崩出个屁来，也不至于这样啊！！！</p>
+<p>今天就简单介绍一下如何向Linux内核提交patch</p>
         <a href="/zh/posts/kernel-submitting-patches/">...</a>
       
     </p>

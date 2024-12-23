@@ -12,7 +12,7 @@
       <link>/zh/posts/kernel-submitting-patches/</link>
       <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
       <guid>/zh/posts/kernel-submitting-patches/</guid>
-      <description>拉取代码 # 安装git # apt install git git-email git config --global user.name &amp;quot;John Doe&amp;quot; git config --global user.email johndoe@example.com 配置邮箱 # vim ~/.gitconfig，去对应邮箱拿smtp授权&#xA;[sendemail] smtpEncryption = tls smtpServer = smtp.gmail.com smtpUser = yourname@gmail.com smtpServerPort = 587 拉主支代码 # git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git 拉取分支 # cd linux git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git git fetch --tags linux-next git checkout -b mydev next-**** 任何要合并到linux主支的代码都会首先合并到next中，所以咱们基于next分支来开发&#xA;查看tags # git tag -l &amp;quot;next-*&amp;quot; | tail 定期更新代码 # git checkout master git remote update 编译 # 生成配置 # make ARCH=x86_64 allyesconfig 编译 # make -j4 ARCH=x86_64 EXTRA_CFLAGS=&amp;quot;-Wmissing-declarations -Wmissing-prototypes&amp;quot; 生成其他平台，在后面加上对应的交叉编译工具链</description>
+      <description>&lt;p&gt;过了这么长时间一直没有发布任何文章，也不知道写些什么好，其实博客和小说写了很多内容，但是自己总觉得还没写好，唉！但凡能崩出个屁来，也不至于这样啊！！！&lt;/p&gt;&#xA;&lt;p&gt;今天就简单介绍一下如何向Linux内核提交patch&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
