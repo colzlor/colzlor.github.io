@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 灶马的博客</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 灶马的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 23 Dec 2024 01:23:50 -0500</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打草笼</title>
+      <link>/tags/%E6%89%93%E8%8D%89%E7%AC%BC/</link>
+      <pubDate>Fri, 22 Nov 2024 21:55:38 -0400</pubDate>
+      <guid>/tags/%E6%89%93%E8%8D%89%E7%AC%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
