@@ -8,6 +8,13 @@
     <language>zh</language>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>写在2024年末</title>
+      <link>/posts/2024-year-end-summary/</link>
+      <pubDate>Wed, 25 Dec 2024 21:18:10 -0500</pubDate>
+      <guid>/posts/2024-year-end-summary/</guid>
+      <description>&lt;p&gt;这几年，整个人变得十分怠惰，什么事都不想做，对什么事都没兴趣。但有趣的是，休息没休息好，玩也没玩好，工作也没工作好，几乎一事无成，什么都做不好也算是一种能力吧。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>向kernel提交patch</title>
       <link>/posts/kernel-submitting-patches/</link>
       <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
