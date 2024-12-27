@@ -6,14 +6,14 @@
     <description>Recent content in 技术博客 on 灶马的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 24 Dec 2024 07:04:57 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 23:06:32 -0500</lastBuildDate>
     <atom:link href="/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>向kernel提交patch</title>
+      <title>向 kernel 提交 patch </title>
       <link>/posts/kernel-submitting-patches/</link>
       <pubDate>Sun, 26 May 2024 04:34:05 -0400</pubDate>
       <guid>/posts/kernel-submitting-patches/</guid>
-      <description>&lt;p&gt;过了这么长时间一直没有发布任何文章，也不知道写些什么好，其实博客和小说写了很多内容，但是自己总觉得还没写好，唉！但凡能崩出个屁来，也不至于这样啊！！！&lt;/p&gt;&#xA;&lt;p&gt;今天就简单介绍一下如何向Linux内核提交patch&lt;/p&gt;</description>
+      <description>&lt;p&gt;过了这么长时间一直没有发布任何文章，也不知道写些什么好，其实博客和小说写了很多内容，但是自己总觉得还没写好，唉！但凡能崩出个屁来，也不至于这样啊！&lt;/p&gt;&#xA;&lt;p&gt;今天就简单介绍一下如何向 Linux 内核提交 patch&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
