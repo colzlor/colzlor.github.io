@@ -11,14 +11,14 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/kernel-submitting-patches/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-05-26T04:34:05-04:00" />
-<meta property="article:modified_time" content="2024-12-26T23:06:32-05:00" />
+<meta property="article:modified_time" content="2024-12-28T22:42:39-05:00" />
 <title>向 kernel 提交 patch  | 灶马的博客</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
 <link rel="canonical" href="/posts/kernel-submitting-patches/">
 <link rel="stylesheet" href="/book.min.4964903a822a7acb10dac6d1ab524833c97fb5f99b141976bcb8a47d539be9c0.css" >
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/zh.search.min.9ac1b430ddc606c1655a21f6a58eb0becea1b178d5f7fa752de023b871fb67d2.js" ></script>
+  <script defer src="/zh.search.min.046fac34187a1e18e50d245fdf5b60ea2f47d6251b4106c190e5df12f0cd8309.js" ></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
 
@@ -245,7 +245,7 @@ https://github.com/alex-shpak/hugo-book
             <li><a href="#配置邮箱">配置邮箱</a></li>
             <li><a href="#拉主支代码">拉主支代码</a></li>
             <li><a href="#拉取分支">拉取分支</a></li>
-            <li><a href="#查看-tags">查看 tags</a></li>
+            <li><a href="#查看-tags">查看 Tags</a></li>
             <li><a href="#定期更新代码">定期更新代码</a></li>
             <li><a href="#订阅邮件列表">订阅邮件列表</a></li>
           </ul>
@@ -302,8 +302,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+<blockquote>
 <p>过了这么长时间一直没有发布任何文章，也不知道写些什么好，其实博客和小说写了很多内容，但是自己总觉得还没写好，唉！但凡能崩出个屁来，也不至于这样啊！</p>
 <p>今天就简单介绍一下如何向 Linux 内核提交 patch</p>
+</blockquote>
 <h2 id="拉取代码">
   拉取代码
   <a class="anchor" href="#%e6%8b%89%e5%8f%96%e4%bb%a3%e7%a0%81">#</a>
@@ -312,6 +314,7 @@ https://github.com/alex-shpak/hugo-book
   安装 git
   <a class="anchor" href="#%e5%ae%89%e8%a3%85-git">#</a>
 </h3>
+<hr>
 <pre><code>apt install git git-email
 git config --global user.name &quot;John Doe&quot;
 git config --global user.email johndoe@example.com
@@ -320,6 +323,7 @@ git config --global user.email johndoe@example.com
   配置邮箱
   <a class="anchor" href="#%e9%85%8d%e7%bd%ae%e9%82%ae%e7%ae%b1">#</a>
 </h3>
+<hr>
 <p>vim ~/.gitconfig，去对应邮箱拿 smtp 授权</p>
 <pre><code>[sendemail]
 smtpEncryption = tls
@@ -331,12 +335,14 @@ smtpServerPort = 587
   拉主支代码
   <a class="anchor" href="#%e6%8b%89%e4%b8%bb%e6%94%af%e4%bb%a3%e7%a0%81">#</a>
 </h3>
+<hr>
 <pre><code>git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 </code></pre>
 <h3 id="拉取分支">
   拉取分支
   <a class="anchor" href="#%e6%8b%89%e5%8f%96%e5%88%86%e6%94%af">#</a>
 </h3>
+<hr>
 <p>大多数子系统 Maintainer 都有自己的树，可以在 MAINTAINERS 文件中，找到相应的 Maintainer 及其 git 地址</p>
 <pre><code>cd linux
 git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
@@ -345,15 +351,17 @@ git checkout -b mydev next-****
 </code></pre>
 <p>任何要合并到 linux 主线的代码都会首先合并到 next 中，所以咱们先基于 next 分支修改</p>
 <h3 id="查看-tags">
-  查看 tags
+  查看 Tags
   <a class="anchor" href="#%e6%9f%a5%e7%9c%8b-tags">#</a>
 </h3>
+<hr>
 <pre><code>git tag -l &quot;next-*&quot; | tail
 </code></pre>
 <h3 id="定期更新代码">
   定期更新代码
   <a class="anchor" href="#%e5%ae%9a%e6%9c%9f%e6%9b%b4%e6%96%b0%e4%bb%a3%e7%a0%81">#</a>
 </h3>
+<hr>
 <pre><code>git checkout master 
 git remote update
 </code></pre>
@@ -361,6 +369,7 @@ git remote update
   订阅邮件列表
   <a class="anchor" href="#%e8%ae%a2%e9%98%85%e9%82%ae%e4%bb%b6%e5%88%97%e8%a1%a8">#</a>
 </h3>
+<hr>
 <p>如果对某个子系统感兴趣，或想参与讨论，可以去 <a href="https://subspace.kernel.org/vger.kernel.org.html" target="_blank">订阅邮件列表</a> ，但一定注意 <a href="http://www.albion.com/netiquette/" target="_blank">网络礼仪</a> 和邮件格式</p>
 <p>在发信前，可以先去搜索有关主题的 <a href="https://lore.kernel.org/lkml/" target="_blank">存档</a> ，很多已经详细讨论过的事情只记录在邮件列表档案中</p>
 <h2 id="编译">
@@ -371,6 +380,7 @@ git remote update
   生成文档
   <a class="anchor" href="#%e7%94%9f%e6%88%90%e6%96%87%e6%a1%a3">#</a>
 </h3>
+<hr>
 <pre><code>make htmldocs
 </code></pre>
 <p>也可以使用 <a href="https://www.kernel.org/doc/html/latest" target="_blank">在线文档</a> ，入门先把 Development process 里面的内容大致看一遍</p>
@@ -378,12 +388,14 @@ git remote update
   生成配置
   <a class="anchor" href="#%e7%94%9f%e6%88%90%e9%85%8d%e7%bd%ae">#</a>
 </h3>
+<hr>
 <pre><code>make ARCH=x86_64 allyesconfig
 </code></pre>
 <h3 id="编译-1">
   编译
   <a class="anchor" href="#%e7%bc%96%e8%af%91-1">#</a>
 </h3>
+<hr>
 <pre><code>make -j4 ARCH=x86_64 EXTRA_CFLAGS=&quot;-Wmissing-declarations -Wmissing-prototypes&quot;
 </code></pre>
 <p>生成其他平台，在后面加上对应的交叉编译工具链</p>
@@ -393,6 +405,7 @@ git remote update
   提交补丁
   <a class="anchor" href="#%e6%8f%90%e4%ba%a4%e8%a1%a5%e4%b8%81">#</a>
 </h2>
+<hr>
 <p>补丁的内容大致分成</p>
 <ul>
 <li>docs</li>
@@ -408,6 +421,7 @@ git remote update
   制作补丁
   <a class="anchor" href="#%e5%88%b6%e4%bd%9c%e8%a1%a5%e4%b8%81">#</a>
 </h3>
+<hr>
 <pre><code>git format-patch -s -1
 </code></pre>
 <p>在提交之前，使用 checkpatch.pl 检查补丁是否违规，注意 <a href="https://www.kernel.org/doc/html/latest/process/submitting-patches.html" target="_blank">patch 格式规则</a></p>
@@ -418,6 +432,7 @@ git remote update
   发送邮件，等待回复
   <a class="anchor" href="#%e5%8f%91%e9%80%81%e9%82%ae%e4%bb%b6%e7%ad%89%e5%be%85%e5%9b%9e%e5%a4%8d">#</a>
 </h3>
+<hr>
 <p>用 get_maintainer.pl 来查看对应模块的 Maintainer</p>
 <pre><code>./scripts/get_maintainer.pl 0001-*
 </code></pre>
@@ -488,7 +503,7 @@ git remote update
             <li><a href="#配置邮箱">配置邮箱</a></li>
             <li><a href="#拉主支代码">拉主支代码</a></li>
             <li><a href="#拉取分支">拉取分支</a></li>
-            <li><a href="#查看-tags">查看 tags</a></li>
+            <li><a href="#查看-tags">查看 Tags</a></li>
             <li><a href="#定期更新代码">定期更新代码</a></li>
             <li><a href="#订阅邮件列表">订阅邮件列表</a></li>
           </ul>
